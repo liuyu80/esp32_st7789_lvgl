@@ -1,5 +1,6 @@
 set(sources
     src/st7789_panel_driver.c
+    src/esp_lcd_touch_cst328.c
 )
 
 idf_component_register(
@@ -9,6 +10,7 @@ idf_component_register(
             esp_timer
             esp_lcd
             driver
+            esp_lcd_touch
 )
 
 if (GCOV_BUILD)

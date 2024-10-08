@@ -13,17 +13,16 @@
 
 #define LCD_HOST  SPI2_HOST
 
-#define ST7789_LCD_PIXEL_CLOCK_HZ     (20 * 1000 * 1000)
+#define ST7789_LCD_PIXEL_CLOCK_HZ     (40 * 1000 * 1000)
 #define ST7789_LCD_BK_LIGHT_ON_LEVEL  1
 #define ST7789_LCD_BK_LIGHT_OFF_LEVEL !ST7789_LCD_BK_LIGHT_ON_LEVEL
-#define ST7789_PIN_NUM_SCLK           18
-#define ST7789_PIN_NUM_MOSI           23
+#define ST7789_PIN_NUM_SCLK           40
+#define ST7789_PIN_NUM_MOSI           45
 #define ST7789_PIN_NUM_MISO           -1
-#define ST7789_PIN_NUM_LCD_DC         27
-#define ST7789_PIN_NUM_LCD_RST        33
+#define ST7789_PIN_NUM_LCD_DC         41
+#define ST7789_PIN_NUM_LCD_RST        39
 #define ST7789_PIN_NUM_LCD_CS         -1
-#define ST7789_PIN_NUM_BK_LIGHT       32
-#define ST7789_PIN_NUM_TOUCH_CS       15
+#define ST7789_PIN_NUM_BK_LIGHT       5
 
 // Bit number used to represent command and parameter
 #define ST7789_LCD_CMD_BITS           8

@@ -9,7 +9,7 @@
 
 // The pixel number in horizontal and vertical
 #define ST7789_LCD_H_RES              240
-#define ST7789_LCD_V_RES              240
+#define ST7789_LCD_V_RES              320
 
 #ifdef __cplusplus
 extern "C" {

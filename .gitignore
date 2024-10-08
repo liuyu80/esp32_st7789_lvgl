@@ -18,6 +18,7 @@ CTestTestfile.cmake
 cmake-build-debug/*
 .vscode/*
 build/*
+.cache/
 managed_components
 dependencies.lock
 doc/*
